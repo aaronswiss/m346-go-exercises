@@ -9,10 +9,10 @@ func main() {
 		346: "Vertiefung Datenbanken",
 	}
 	// TODO: create a map called "modules"
-
 	fmt.Println("Modul 104:", modules[104])
 	fmt.Println("Modul 117:", modules[117])
 	fmt.Println("Modul 346:", modules[346])
+
 	// TODO: delete one
 	delete(modules, 104)
 
